@@ -1,15 +1,26 @@
 <template>
   <div id="app">
-    <div class="add"></div>
-    <h1>123123</h1>
+    <FirstPage></FirstPage>
+    <SecondPage></SecondPage>
+    <ThirdPage></ThirdPage>
+    <FourPage></FourPage>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'App',
-    components: {}
+import FirstPage from './components/FirstPage'
+import SecondPage from './components/SecondPage'
+import ThirdPage from './components/ThirdPage'
+import FourPage from './components/FourPage'
+export default {
+  name: 'App',
+  components: {
+    FirstPage,
+    SecondPage,
+    ThirdPage,
+    FourPage
   }
+}
 
 </script>
 
