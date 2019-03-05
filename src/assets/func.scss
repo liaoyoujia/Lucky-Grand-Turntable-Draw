@@ -1,0 +1,8 @@
+@function Rem($n) {
+    @return ($n / 100)+rem;
+}
+
+
+// h1{
+//     color:cyan;
+// }
