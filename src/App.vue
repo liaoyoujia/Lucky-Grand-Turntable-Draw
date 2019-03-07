@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <Ad></Ad> -->
     <FirstPage></FirstPage>
     <SecondPage></SecondPage>
     <ThirdPage></ThirdPage>
@@ -16,7 +15,6 @@ import ThirdPage from './components/ThirdPage'
 import FourPage from './components/FourPage'
 import Diage from './components/diagger'
 import imgRule from './assets/images/model/rule_1.png'
-import Ad from './components/adasd'
 export default {
   name: 'App',
   data: () => {
@@ -30,7 +28,6 @@ export default {
     ThirdPage,
     FourPage,
     Diage,
-    Ad
   }
 
 }
@@ -38,15 +35,7 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "./assets/func.scss";
 
-  #app {
-
-    .add {
-      height: Rem(100);
-      background-color: cyan;
-      width: Rem(100)
-    }
-  }
+  
 
 </style>
